@@ -32,7 +32,7 @@ namespace Mtable3
 
                 case 2: // Paraméterek száma: 2
                     szam1 = int.Parse(args[0]);
-                    szam2 = int.Parse(args[0]);
+                    szam2 = int.Parse(args[1]);
                     break;
             }
 
