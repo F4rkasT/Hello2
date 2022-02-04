@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtable22", "Mtable22\Mtable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtable3", "Mtable3\Mtable3.csproj", "{91E245D6-5ED4-4F84-9634-04401B830D49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{CD798C29-1F16-40C7-8A90-34128048AF4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{91E245D6-5ED4-4F84-9634-04401B830D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91E245D6-5ED4-4F84-9634-04401B830D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91E245D6-5ED4-4F84-9634-04401B830D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
