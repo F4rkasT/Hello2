@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mtable22
+namespace Mtable3
 {
     class Program
     {
         static void Main(string[] args)
         {
+            /* Parancssori paraméterek száma lehet: 0, 1, 2*/
             int szam = 0;
 
             // Ha kapok számot a parancssorból
@@ -28,4 +29,3 @@ namespace Mtable22
             Console.ReadKey();
         }
     }
-}

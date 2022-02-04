@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello2", "Hello2\Hello2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtable22", "Mtable22\Mtable22.csproj", "{AFC25979-D223-4F61-A7D3-E8F99284B258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtable3", "Mtable3\Mtable3.csproj", "{91E245D6-5ED4-4F84-9634-04401B830D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AFC25979-D223-4F61-A7D3-E8F99284B258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC25979-D223-4F61-A7D3-E8F99284B258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC25979-D223-4F61-A7D3-E8F99284B258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E245D6-5ED4-4F84-9634-04401B830D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E245D6-5ED4-4F84-9634-04401B830D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E245D6-5ED4-4F84-9634-04401B830D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E245D6-5ED4-4F84-9634-04401B830D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
