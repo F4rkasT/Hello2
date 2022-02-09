@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtable3", "Mtable3\Mtable3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{CD798C29-1F16-40C7-8A90-34128048AF4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kő-papír-olló", "Kő-papír-olló\Kő-papír-olló.csproj", "{EB979377-67DB-4BB4-9008-30FB156E3558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Számkitaláló", "Számkitaláló\Számkitaláló.csproj", "{BA12E115-1A78-4667-BC93-B8E14E14D527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD798C29-1F16-40C7-8A90-34128048AF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB979377-67DB-4BB4-9008-30FB156E3558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB979377-67DB-4BB4-9008-30FB156E3558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB979377-67DB-4BB4-9008-30FB156E3558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB979377-67DB-4BB4-9008-30FB156E3558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
