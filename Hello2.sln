@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "MinMax\MinMax.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nagyszam", "nagyszam\nagyszam.csproj", "{6E0B6843-0E27-4499-BED1-80C876DF82CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Átlaghőmérséklet", "Átlaghőmérséklet\Átlaghőmérséklet.csproj", "{E5F4142B-92C6-4908-9D0A-617E34936890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F4142B-92C6-4908-9D0A-617E34936890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F4142B-92C6-4908-9D0A-617E34936890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F4142B-92C6-4908-9D0A-617E34936890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F4142B-92C6-4908-9D0A-617E34936890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
