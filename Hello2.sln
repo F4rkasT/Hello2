@@ -15,11 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kő-papír-olló", "Kő-pap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Számkitaláló", "Számkitaláló\Számkitaláló.csproj", "{BA12E115-1A78-4667-BC93-B8E14E14D527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "MinMax\MinMax.csproj", "{2D49FFCF-37F2-40EC-9B8C-90D6C267656B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szigetek", "szigetek\szigetek.csproj", "{219AD123-5232-4B02-9F2C-1763019EA89C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nagyszam", "nagyszam\nagyszam.csproj", "{6E0B6843-0E27-4499-BED1-80C876DF82CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bg", "bg\bg.csproj", "{C28BBBBC-DA61-4A84-9F2A-1E0BE592BFA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Átlaghőmérséklet", "Átlaghőmérséklet\Átlaghőmérséklet.csproj", "{E5F4142B-92C6-4908-9D0A-617E34936890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pont tavolsag", "pont tavolsag\pont tavolsag.csproj", "{9692D85F-4246-44D3-9A8C-44B679AC0FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ponthatar", "ponthatar\ponthatar.csproj", "{B1E9BAE0-261A-4A49-9B7C-E44544F25816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,18 +53,22 @@ Global
 		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA12E115-1A78-4667-BC93-B8E14E14D527}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D49FFCF-37F2-40EC-9B8C-90D6C267656B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D49FFCF-37F2-40EC-9B8C-90D6C267656B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D49FFCF-37F2-40EC-9B8C-90D6C267656B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D49FFCF-37F2-40EC-9B8C-90D6C267656B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E0B6843-0E27-4499-BED1-80C876DF82CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5F4142B-92C6-4908-9D0A-617E34936890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5F4142B-92C6-4908-9D0A-617E34936890}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5F4142B-92C6-4908-9D0A-617E34936890}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5F4142B-92C6-4908-9D0A-617E34936890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219AD123-5232-4B02-9F2C-1763019EA89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219AD123-5232-4B02-9F2C-1763019EA89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219AD123-5232-4B02-9F2C-1763019EA89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219AD123-5232-4B02-9F2C-1763019EA89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28BBBBC-DA61-4A84-9F2A-1E0BE592BFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28BBBBC-DA61-4A84-9F2A-1E0BE592BFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28BBBBC-DA61-4A84-9F2A-1E0BE592BFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28BBBBC-DA61-4A84-9F2A-1E0BE592BFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9692D85F-4246-44D3-9A8C-44B679AC0FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9692D85F-4246-44D3-9A8C-44B679AC0FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9692D85F-4246-44D3-9A8C-44B679AC0FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9692D85F-4246-44D3-9A8C-44B679AC0FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E9BAE0-261A-4A49-9B7C-E44544F25816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E9BAE0-261A-4A49-9B7C-E44544F25816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E9BAE0-261A-4A49-9B7C-E44544F25816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E9BAE0-261A-4A49-9B7C-E44544F25816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
