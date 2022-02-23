@@ -13,8 +13,9 @@ namespace bg
             Console.WriteLine("Adja meg a testtomeget(kg)");
             double testtomeg = int.Parse(Console.ReadLine());
             Console.WriteLine("Adja meg a testmagassagot(cm)");
-            double testmagassag = int.Parse(Console.ReadLine());
+            double testmagassag = Convert.ToDouble(Console.ReadLine());
             double bmi = 0;
+            testmagassag = testmagassag / 100;
             bmi = testtomeg / (testmagassag * testmagassag);
             Console.WriteLine(bmi);
 
@@ -34,7 +35,7 @@ namespace bg
             {
                 Console.WriteLine("dagadt");
             }
-
+            Console.ReadKey();
         }
     }
 }
