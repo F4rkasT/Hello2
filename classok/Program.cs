@@ -59,9 +59,12 @@ namespace classok
 
                 Allat allat3 = new Allat();
                 allat3.setkor("Vadász");
-                allat3.
+                allat3.setfajta("Agár");
+                allat3.setszín("Barna");
+                allat3.setkor(5);
+                Console.WriteLine("\n Az állat neve: {0}, -" + "\n kora: {1} év \n fajtája: {2} \n színe {3}", allat3.getnev(), allat3.getkor(), allat3.get.fajta());
                 Console.ReadKey();
-    
+    Console.
         }
         }
     }
