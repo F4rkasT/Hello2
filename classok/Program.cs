@@ -21,6 +21,13 @@ namespace classok
             this.szín = szín;
         }
 
+        public Allat()
+        {
+            this.nev = "Anonim";
+            this.fajta = "ismeretlen";
+            this.szín = "fekete";
+            this.kor = 0;
+        }
         public string getnev()
         {
             return this.nev;
@@ -44,7 +51,16 @@ namespace classok
                 // Példányosítunk objektumokat
                 Allat allat1 = new Allat("Bodri", "Puli", " Fekete");
                 allat1.setkor(2);
-                Console.WriteLine("Az állat neve: {0}, kora ");
+                Console.WriteLine("Az állat neve: {0}, kora {1} év", allat1.getnev(), allat1.getkor());
+
+                Allat allat2 = new Allat("Bolhás", "Komondor", "Fehér");
+                allat2.setkor(3);
+                Console.WriteLine("Az allat2 neve: {0}, kora {1} év", allat2.getnev(), allat2.getkor());
+
+                Allat allat3 = new Allat();
+                allat3.setkor("Vadász");
+                allat3.
+                Console.ReadKey();
     
         }
         }
