@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negativ", "negativ\negativ.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Páros_páratlan", "Páros_páratlan\Páros_páratlan.csproj", "{B85CB783-E628-4691-BCCA-8584B720F95F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classok", "classok\classok.csproj", "{F8BF697C-6816-4AE7-8F1F-4D083038DF1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{B85CB783-E628-4691-BCCA-8584B720F95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85CB783-E628-4691-BCCA-8584B720F95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85CB783-E628-4691-BCCA-8584B720F95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BF697C-6816-4AE7-8F1F-4D083038DF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BF697C-6816-4AE7-8F1F-4D083038DF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BF697C-6816-4AE7-8F1F-4D083038DF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BF697C-6816-4AE7-8F1F-4D083038DF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
