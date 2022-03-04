@@ -57,11 +57,15 @@ namespace Class_feladat
                 Kör k1 = new Kör();
                 Henger Henger1 = new Henger();
                 Console.WriteLine("Add meg a Kör sugarát");
-                k1.setSugar();
+                Henger1.setSugar();
                 Console.WriteLine("Add meg a Henger magasságát");
-                Console.WriteLine("A Kör sugara: {0}", k1.getSugar());
-                Console.WriteLine("A Kör kerülete: {0}", k1.getKer());
-                Console.WriteLine("A Kör területe: {0}", k1.getTer());
+                Henger1.Magasság();
+                Console.WriteLine("A Kör sugara: {0}", Henger1.getSugar());
+                Console.WriteLine("A Kör kerülete: {0}", Henger1.getKer());
+                Console.WriteLine("A Kör területe: {0}", Henger1.getTer());
+                Console.WriteLine("A henger magassága {0}", Henger1.getMagasság());
+                Console.WriteLine("A henger térfogata {0}", Henger1.getTérfogat());
+                Console.WriteLine("A henger alaptterülete", Henger1.getAlapter());
 
                 Console.ReadKey();
             }
