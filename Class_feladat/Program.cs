@@ -34,7 +34,7 @@ namespace Class_feladat
             public Henger() : base() { }
             public void Magasság()
             {
-                magassag = Convert.ToDouble(Console.ReadLine());
+                this.magassag = Convert.ToDouble(Console.ReadLine());
             }
             public double getMagasság()
             {
