@@ -10,20 +10,7 @@ namespace vektor
     {
         // Osztályváltozók
         protected int elemekszama;
-        private int ertek,
-            ertek2,
-            atlagertek,
-            atlagertek2,
-            min,
-            min2,
-            max,
-            max2,
-            minimumIndex,
-            minimumIndexSor,
-            minimumIndexOszlop,
-            maximumIndex,
-            maximumIndexSor,
-            maximumIndexOszlop;
+        private int ertek, ertek2, atlagertek, atlagertek2, min, min2, max, max2, minimumIndex, minimumIndexSor, minimumIndexOszlop, maximumIndex, maximumIndexSor, maximumIndexOszlop;
         private int[] vektorhossz;
 
         // Random szám generálás
@@ -213,15 +200,22 @@ namespace vektor
                     maxindexoszlop = 0;
                 maximum = vektornakhossza.Cast<int>().Max();
                 this.max2 = maximum;
+                bool kilep = false;
                 for (int i = 0; i < vektorhossz.GetLength(0); i++)
                 {
                     for (int j = 0; j < vektornakhossza.GetLength(1); j++)
                     {
                         if (vektornakhossza[i, j] == maximum)
                         {
+                            kilep = true;
                             maxindexsor = i;
                             maxindexoszlop = j;
+                            break;
                         }
+                    }
+                    if (kilep)
+                    {
+                        break;
                     }
                 }
                 this.maximumIndexSor = maxindexsor;
