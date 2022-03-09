@@ -114,7 +114,7 @@ namespace vektor
                 a.getMinimum();
                 a.setMaximum();
                 a.getMaximum();
-                Console.Writeline("Szia Farkas");
+                Console.WriteLine("Szia Farkas");
                 Console.ReadKey();
             }
         }
