@@ -8,22 +8,26 @@ namespace trycatch
 {
     class Program
     {
-            static void Main(string[] args)
+        static void Main(string[] args)
+        {
+            int a;
+            bool ism = true;
+            Console.WriteLine("Adjon meg egy számot:");
+            while (ism)
             {
-                int a;
-
-                do
+                try
                 {
-                    try
-                    {
-                        Console.WriteLine("Adj egy számot!");
-                        a = Convert.ToInt32(Console.ReadLine());
-                    }
-                    catch (FormatException a)
-                    {
-                        Console.WriteLine("Számot kérek!");
-                    }
-                } while ();
+                    a = Convert.ToInt32(Console.ReadLine());
+                    ism = false;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Számot!!!!!");
+                    ism = true;
+                }
             }
+
+            Console.ReadKey();
         }
     }
+}
