@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace sorozatok
 {
-    class Program
+    class Sorozatok
     {
-        static void Main(string[] args)
+        public Sorozatok() { }
+
+        public void szamol()
         {
             int a = 0;
             int b = 0;
@@ -36,6 +38,15 @@ namespace sorozatok
             }
             Console.ReadKey();
 
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Sorozatok sor = new Sorozatok();
+            sor.szamol();
+            Console.ReadKey();
         }
     }
 }
