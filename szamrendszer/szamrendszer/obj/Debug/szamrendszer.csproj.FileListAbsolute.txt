@@ -1,7 +1,0 @@
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\bin\Debug\szamrendszer.exe.config
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\bin\Debug\szamrendszer.exe
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\bin\Debug\szamrendszer.pdb
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\obj\Debug\szamrendszer.csproj.AssemblyReference.cache
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\obj\Debug\szamrendszer.csproj.CoreCompileInputs.cache
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\obj\Debug\szamrendszer.exe
-C:\Users\Tomi\source\repos\szamrendszer\szamrendszer\obj\Debug\szamrendszer.pdb
