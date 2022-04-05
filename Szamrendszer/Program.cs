@@ -16,13 +16,13 @@ namespace Szamrendszer
 
             Console.WriteLine("Irj be egy számot");
 
-            int beirt = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Milyen számrendszerbe váltsam?");
 
             int szamr = Convert.ToInt32(Console.ReadLine());
 
-            string valtott = Convert.ToString(beirt, szamr);
+            string valtott = Convert.ToString(a, szamr);
 
             Console.WriteLine(valtott);
         }
