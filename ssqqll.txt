@@ -1,0 +1,9 @@
+2.SELECT EntStageName FROM `customers` JOIN `engagements` ON engagements.CustomerID = customers.CustomerID
+JOIN entertainers ON engagements.EntertainerID = entertainers.EntertainerID WHERE CustLastName = "Hallmark" or CustLastName = "Berg"
+
+
+3.
+Select `SubjectName`, `WednesDaySchedule`
+from `subjects`
+Inner JOIN `classes`
+WHERE `WednesDaySchedule` = 1
