@@ -9,30 +9,44 @@ namespace ForAndForeach
     class ForAndForeach
     {
         public ForAndForeach() { }
-            int[] tomb = new int[40];
-            Random rnd = new Random();
-            public void toltes()
-            {
+        private int[] tomb = new int[40];
+        private Random rnd = new Random();
+        public void toltes()
+        {
             for (int i = 0; i < tomb.Length; i++)
             {
                 tomb[i] = rnd.Next(1, 1000);
             }
-            }
+        }
         public void hoppa()
         {
             Console.WriteLine("for-ral");
             for (int i = 0; i < tomb.Length; i++)
             {
-
+                Console.WriteLine(tomb[i]);
             }
         }
-    }
-    }
-    class Program
-    {
-        static void Main(string[] args)
+        public void ForE()
         {
+            Console.WriteLine("Foreach-el");
 
+             foreach (var index in tomb)
+            {
+                Console.WriteLine("Foreach");
+            }
+    }
+        
+        
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                ForAndForeach a = new ForAndForeach();
+                a.toltes();
+                a.hoppa();
+                a.ForE();
+                Console.ReadKey();
+            }
         }
     }
 }
