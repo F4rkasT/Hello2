@@ -41,6 +41,15 @@ namespace Matrix4
             {
                 Console.WriteLine("M ár van érték ezen az indexen");
             }
+            for (int i = 0; i < sorok; i++)
+            {
+                for (int j = 0; j < oszlopok; j++)
+                {
+                    Console.Write(tomb [i, j]);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
         }
     }
 }
