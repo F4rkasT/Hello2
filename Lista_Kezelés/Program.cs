@@ -17,9 +17,7 @@ namespace Lista_Kezelés
     public class Városnevek 
     {
         int névdarab = 0;
-        string beolvas;
         string név;
-        string folytatás;
         List<string> lista = new List<string>();
     public Városnevek() { }
         public void setDb()
@@ -28,82 +26,86 @@ namespace Lista_Kezelés
             névdarab = Convert.ToInt32(Console.ReadLine());
             if (névdarab == 0)
             {
-                
+                Console.WriteLine("Város neveit kérem: ");
+                do
+                {
+                    for (int i = 0; i <= névdarab; i++)
+                    {
+                        név = Console.ReadLine();
+                        lista.Add(név);
+                    }
+                } while (név != "");
             }
+
         }
         public void setNevek()
         {
             for (int i = 0; i < névdarab; i++)
             {
-                Console.WriteLine("Kérek nevet");
                 név = Console.ReadLine();
-                lista.Add(beolvas);
+                lista.Add(név);
             }
             
         }
         public void getNevek()
         {
-            for (int i = 0; i < lista.Count; i++)
+            Console.WriteLine("lista elemei:");
+            foreach (var item in lista)
             {
-                Console.WriteLine("{0},",lista[i]);
+                Console.Write("{0}, ", item);
             }
-            
         }
-        public void getVan() 
+        public void getVan()
         {
-            Console.WriteLine("Kérek egy nevet");
-            bool hoppá = false;
-            for (int i = 0; i < lista.Count; i++)
-            {
-                if (beolvas == lista[i])
-                {
-                    hoppá = true;
-                }
-                else { }
-            }
-            if (hoppá)
+            string beker;
+            Console.WriteLine("Kérem a város nevét!");
+            beker = Console.ReadLine();
+            if (lista.Contains(beker))
             {
                 Console.WriteLine("Szerepel a listában");
             }
             else
             {
-                Console.WriteLine("nem szerepel a listában");
+                Console.WriteLine("Nem szerepel a listában");
+            }
+            foreach (var item in lista)
+            {
+                Console.WriteLine(item);
             }
         }
         public void delNev()
         {
+            string bekér;
             Console.WriteLine("kérek egy nevet");
-            beolvas = Console.ReadLine();
-            bool ezigen = false;
-            int azigen = 0;
-            for (int i = 0; i < lista.Count; i++)
+            bekér = Console.ReadLine();
+            if (lista.Contains(bekér))
             {
-                if (beolvas == lista[i])
-                {
-                    azigen = i;
-                    ezigen = true;
-                }
-            }
-            if (ezigen)
-            {
-                lista.RemoveAt(azigen);
-                Console.WriteLine("törölve lett");
+                Console.Write("A név szerepel a listában ezért törölve.");
+                lista.Remove(bekér);
             }
             else
             {
-                lista.Add(beolvas);
-                Console.WriteLine("Hozzáadva");
+                Console.WriteLine("A név nem szerepel a listában ezért hozzá lett adva");
+                lista.Add(bekér);
             }
-
+            Console.WriteLine("Az elemek: ");
+            foreach (var item in lista)
+            {
+                Console.WriteLine(item);
+            }
         }
         public void delLast()
         {
-            lista.RemoveAt(lista.Count - 1);
+            string last = lista[lista.Count - 1];
+            lista.Remove(last);
             Console.WriteLine("Utolsó elem törölve");
+            foreach (var item in lista)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
     
-
     class Program
     {
         static void Main(string[] args)
