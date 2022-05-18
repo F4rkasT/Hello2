@@ -59,9 +59,9 @@ namespace AutoList
         }
         public void kiir()
         {
-            foreach (Auto p in autoLista)
+            foreach (Auto a in autoLista)
             {
-                p.printAuto();
+                a.printAuto();
             }
             Console.ReadKey();
         }
