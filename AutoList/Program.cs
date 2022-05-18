@@ -4,8 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace AutoList
 
+
+namespace AutoList
 {
     internal class AutoLista
     {
@@ -30,9 +31,7 @@ namespace AutoList
             }
             public void printAuto()
             {
-
                 Console.WriteLine("{0} {1} {2} {3} {4} {5}", rendszam, gyartmany, tipus, gyartasev, muszaki.ToShortDateString(), tulajdonos);
-
             }
         }
         private List<Auto> autoLista;
@@ -41,10 +40,8 @@ namespace AutoList
         {
             autoLista = new List<Auto>();
         }
-
         public void Beolvas()
         {
-
             string sor;
             string[] mezok;
             Console.WriteLine("Adja meg a szövegfájl nevét és elérési útvonalát!");
@@ -54,7 +51,6 @@ namespace AutoList
             using (StreamReader sr = new StreamReader(fajlNev, Encoding.Default))
                 while (sr.EndOfStream == false)
                 {
-
                     sor = sr.ReadLine();
                     if (sor.Trim().Length == 0) continue;
                     mezok = sor.Split(',');
@@ -63,14 +59,11 @@ namespace AutoList
         }
         public void kiir()
         {
-
             foreach (Auto p in autoLista)
             {
                 p.printAuto();
             }
             Console.ReadKey();
         }
-
-
     }
 }
