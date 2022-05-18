@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "henger", "henger\henger.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hengeres", "hengeres\hengeres.csproj", "{3FF1F110-2E3C-464B-BC25-DD1479C8F45F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoList", "AutoList\AutoList.csproj", "{23D9F329-EE1E-40BB-8AEC-E4DED2BBF8E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{3FF1F110-2E3C-464B-BC25-DD1479C8F45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF1F110-2E3C-464B-BC25-DD1479C8F45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF1F110-2E3C-464B-BC25-DD1479C8F45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D9F329-EE1E-40BB-8AEC-E4DED2BBF8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D9F329-EE1E-40BB-8AEC-E4DED2BBF8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D9F329-EE1E-40BB-8AEC-E4DED2BBF8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D9F329-EE1E-40BB-8AEC-E4DED2BBF8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
