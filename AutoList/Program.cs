@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace AutoList
 
 {
@@ -14,12 +14,12 @@ namespace AutoList
             private string rendszam;
             private string gyartmany;
             private string tipus;
-            private DateTime gyartasev;
+            private int gyartasev;
             private DateTime muszaki;
             private string tulajdonos;
 
             public Auto() { }
-            public Auto(String rendszam, string gyartmany, string tipus, DateTime gyartasev, DateTime muszaki, string tulajdonos)
+            public Auto(string rendszam, string gyartmany, string tipus, int gyartasev, DateTime muszaki, string tulajdonos)
             {
                 this.rendszam = rendszam;
                 this.gyartmany = gyartmany;
@@ -31,7 +31,7 @@ namespace AutoList
             public void printAuto()
             {
 
-                Console.WriteLine("{0} {1} {2} {3} {4} {5}", rendszam, gyartmany, tipus, gyartasev.ToShortDateString(), muszaki.ToShortDateString(), tulajdonos);
+                Console.WriteLine("{0} {1} {2} {3} {4} {5}", rendszam, gyartmany, tipus, gyartasev, muszaki.ToShortDateString(), tulajdonos);
 
             }
         }
@@ -58,7 +58,7 @@ namespace AutoList
                     sor = sr.ReadLine();
                     if (sor.Trim().Length == 0) continue;
                     mezok = sor.Split(',');
-                    autoLista.Add(new Auto(mezok[0], mezok[1], mezok[2], DateTime.Parse(mezok[3]), DateTime.Parse(mezok[4]), mezok[5]));
+                    autoLista.Add(new Auto(mezok[0], mezok[1], mezok[2], int.Parse(mezok[3]), DateTime.Parse(mezok[4]), mezok[5]));
                 }
         }
         public void kiir()
