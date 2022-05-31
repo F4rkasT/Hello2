@@ -1,5 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.IO;
+using Kalkulator;
 
 namespace kalkulatorUnitTest
 {
@@ -9,81 +11,81 @@ namespace kalkulatorUnitTest
         Calculator osztaly = new Calculator();
 
         [TestMethod]
-        public void osszeadRossz()
+        public void osszeadR()
         {
             int varteredmeny = 5;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(15, 5, '+');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(15, 5, '+');
 
             Assert.AreNotEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void osszeadJo()
+        public void osszeadJ()
         {
             int varteredmeny = 20;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(15, 5, '+');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(15, 5, '+');
 
             Assert.AreEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void kivonRossz()
+        public void kivonR()
         {
             int varteredmeny = 10;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(5, 5, '-');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(5, 5, '-');
 
             Assert.AreNotEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void kivonJo()
+        public void kivonJ()
         {
             int varteredmeny = 10;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(15, 5, '-');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(15, 5, '-');
 
             Assert.AreEqual(varteredmeny, kapotteredmeny);
         }
 
         [TestMethod]
-        public void szorozRossz()
+        public void szorozR()
         {
             int varteredmeny = 15;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(2, 5, '*');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(2, 5, '*');
 
             Assert.AreNotEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void szorozJo()
+        public void szorozJ()
         {
             int varteredmeny = 10;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(2, 5, '*');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(2, 5, '*');
 
             Assert.AreEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void osztRossz()
+        public void osztR()
         {
             int varteredmeny = 3;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(10, 5, '/');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(10, 5, '/');
 
             Assert.AreNotEqual(kapotteredmeny, varteredmeny);
         }
 
         [TestMethod]
-        public void osztJo()
+        public void osztJ()
         {
             int varteredmeny = 2;
 
-            int kapotteredmeny = Kalkulator.Calculator.szamitas(10, 5, '/');
+            int kapotteredmeny = Kalkulator.Calculator.szamol(10, 5, '/');
 
             Assert.AreEqual(kapotteredmeny, varteredmeny);
         }
@@ -91,7 +93,7 @@ namespace kalkulatorUnitTest
         [TestMethod]
         public void osztasNullaval()
         {
-            string varteredmeny = "0-val való osztás értelmetlen";
+            string varteredmeny = "nem lehet";
 
             string kapotteredmeny;
 
@@ -99,7 +101,7 @@ namespace kalkulatorUnitTest
             {
                 Console.SetOut(szoveg);
 
-                Kalkulator.Calculator.szamitas(10, 0, '/');
+                Kalkulator.Calculator.szamol(10, 0, '/');
 
                 kapotteredmeny = szoveg.ToString().Trim();
             }

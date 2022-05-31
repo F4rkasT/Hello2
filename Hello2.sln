@@ -39,8 +39,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hőmérséklet", "Hőmérs�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trycatch", "trycatch\trycatch.csproj", "{04CF9136-A2C8-4F92-B07C-1CADDF954F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "feladat", "feladat\feladat.csproj", "{1611841B-9116-439D-B1AE-3A5D5B235E84}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorozatok", "Sorozatok\Sorozatok.csproj", "{5F580A4D-7373-450F-BBA9-5A2297DD552A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bináris", "Bináris\Bináris.csproj", "{B933A3E3-36A6-4F81-9DBF-5CFA9C2F4AE1}"
@@ -74,6 +72,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "Kalkulator\Kalkulator.csproj", "{68A182CC-EF6F-4F37-860A-B219C3182959}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kalkulatorUnitTest", "kalkulatorUnitTest\kalkulatorUnitTest.csproj", "{4B4DAB0B-FAAB-4449-9B9C-7FD43DD50275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szigetekUt", "szigetekUt\szigetekUt.csproj", "{8EBC213B-A013-43DE-A7F1-E81643E82146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumMaximum", "MinimumMaximum\MinimumMaximum.csproj", "{23D8C04C-8A13-41EF-80CC-57DB4DAF7002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,10 +155,6 @@ Global
 		{04CF9136-A2C8-4F92-B07C-1CADDF954F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04CF9136-A2C8-4F92-B07C-1CADDF954F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04CF9136-A2C8-4F92-B07C-1CADDF954F1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1611841B-9116-439D-B1AE-3A5D5B235E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1611841B-9116-439D-B1AE-3A5D5B235E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1611841B-9116-439D-B1AE-3A5D5B235E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1611841B-9116-439D-B1AE-3A5D5B235E84}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F580A4D-7373-450F-BBA9-5A2297DD552A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F580A4D-7373-450F-BBA9-5A2297DD552A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F580A4D-7373-450F-BBA9-5A2297DD552A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -225,6 +223,14 @@ Global
 		{4B4DAB0B-FAAB-4449-9B9C-7FD43DD50275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B4DAB0B-FAAB-4449-9B9C-7FD43DD50275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B4DAB0B-FAAB-4449-9B9C-7FD43DD50275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBC213B-A013-43DE-A7F1-E81643E82146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBC213B-A013-43DE-A7F1-E81643E82146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBC213B-A013-43DE-A7F1-E81643E82146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBC213B-A013-43DE-A7F1-E81643E82146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D8C04C-8A13-41EF-80CC-57DB4DAF7002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D8C04C-8A13-41EF-80CC-57DB4DAF7002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D8C04C-8A13-41EF-80CC-57DB4DAF7002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D8C04C-8A13-41EF-80CC-57DB4DAF7002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
